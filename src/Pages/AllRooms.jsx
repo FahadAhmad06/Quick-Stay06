@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { facilityIcons, roomsDummyData } from "../assets/assets";
 import { assets } from "../assets/assets";
 import { useNavigate } from "react-router-dom";
-import StarRating from "../Components/starRating";
+import StarRating from "../Components/StarRating";
 
 const CheckBox = ({ label, selected =false, onchange = () => {} }) => {
   return (

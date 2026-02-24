@@ -1,7 +1,7 @@
 import React from "react";
 import Tittle from "./Tittle";
 import { testimonials } from "../assets/assets";
-import StarRating from "./starRating";
+import StarRating from "./StarRating";
 
 const Testimonial = () => {
   return (
