@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react'
 import { useParams } from 'react-router-dom'
 import { facilityIcons, roomCommonData, roomsDummyData } from '../assets/assets'
 import { assets } from '../assets/assets'   
-import StarRating from '../Components/starRating.jsx'
+import StarRating from '../Components/starRating'
 import Testimonial from '../Components/Testimonial'
 
 
